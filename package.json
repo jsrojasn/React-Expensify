@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Juan Rojas",
   "license": "MIT",
+  "engines": {
+    "node": "10.0.0"
+  },
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
